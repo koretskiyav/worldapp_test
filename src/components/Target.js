@@ -8,12 +8,15 @@ const { bool, shape, func } = PropTypes;
 const Div = styled.div`
   width: 20%;
   height: 20%;
-  padding: 10px;
   font-size: 20px;
-  background: ${props => (props.droped ? 'mediumseagreen' : '#ccc')};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: ${({ droped }) => (droped ? 'mediumseagreen' : '#ccc')};
   border: 1px solid #aaa;
   border-radius: 1%;
   position: absolute;
+  user-select: none;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
