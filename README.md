@@ -29,6 +29,6 @@ wait for building, then
 ```sh
 npm run static
 ```
-and visit http://http://127.0.0.1:8080/
+and visit http://127.0.0.1:8080/
 
 >to run on an another port type: `npm run static -- -p 9999`
